@@ -17,14 +17,14 @@ const Main = () => {
           </motion.p>
           <motion.div variants={fadeInUp}>
             <h1 className="text-4xl md:mb-5 2xl:text-7xl  md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight dark:text-gray-100  sm:leading-10   md:leading-14">
-              I&apos;m Alberto 👋
+              I&apos;m Jesus Albarca 👋
             </h1>
           </motion.div>
           <motion.p
             variants={fadeInUp}
             className="mt-3 mb-6 md:mb-8 sm:w-9/12  text-gray-900 dark:text-gray-300 md:w-10/12 lg:w-full max-w-2xl text-base md:text-lg font-medium "
           >
-            I&apos;m a computer engineer with experience in cybersecurity. Welcome to my personal slice of the internet.
+            I&apos;m a computer engineer graduated in UC3M. Welcome to my personal slice of the internet.
             I&apos;m glad you&apos;re here!
           </motion.p>
           <motion.a
