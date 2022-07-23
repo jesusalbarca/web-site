@@ -33,9 +33,9 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="Logo Icon" type="image/png" href="/fav.png" />
         <meta name="Description" content="This is a home page of my portfolio website!" />
-        <meta name="title" property="og:title" content="Alberto Linares" />
+        <meta name="title" property="og:title" content="Jesus Albarca" />
         <meta property="og:type" content="Website" />
-        <meta name="description" property="og:description" content="Alberto Linares" />
+        <meta name="description" property="og:description" content="Jesus Albarca" />
       </Head>
       <Windmill usePreferences>
         <AnimatePresence exitBeforeEnter>
