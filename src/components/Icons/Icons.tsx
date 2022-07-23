@@ -6,7 +6,7 @@ const Icons = () => {
     <div className="flex mb-4 space-x-2">
       <a
         aria-label="Mail"
-        href="mailto:albertolinarescorrales16@gmail.com"
+        href="mailto:jesusjesus1999@gmail.com"
         className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-indigo-900 dark:focus:bg-indigo-900  "
       >
         <svg
@@ -22,7 +22,7 @@ const Icons = () => {
       </a>
       <a
         aria-label="Github"
-        href="https://github.com/alinares98"
+        href="https://github.com/jesusalbarca?tab=repositories"
         target="_blank"
         rel="noopener noreferrer"
         className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400  dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-indigo-900 dark:focus:bg-indigo-900   "
@@ -40,7 +40,7 @@ const Icons = () => {
       </a>
       <a
         aria-label="LinkedIn"
-        href="https://www.linkedin.com/in/linarescorrales/"
+        href="https://www.linkedin.com/in/jes%C3%BAs-albarca-gordillo-588a9b146/"
         target="_blank"
         rel="noopener noreferrer"
         className="p-1.5 rounded  shadow text-gray-700 hover:text-gray-900 hover:bg-indigo-400 focus:bg-indigo-400 dark:text-gray-300 dark:hover:text-gray-100 dark:hover:bg-indigo-900 dark:focus:bg-indigo-900  "
