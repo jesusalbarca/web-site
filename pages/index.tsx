@@ -14,7 +14,7 @@ const Home: NextPage<Props> = (props) => {
   return (
     <>
       <Head>
-        <title>Alberto Linares</title>
+        <title>Jesus Albarca</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="Home Page" content="welcome to the home page!" />
