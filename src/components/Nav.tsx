@@ -14,7 +14,6 @@ const Nav2 = () => {
     { name: 'Home', route: '/' },
     { name: 'Blog', route: '/blog' },
     { name: 'About', route: '/about' },
-    { name: 'Proyects', route: '/projects' },
 
   ]
 
