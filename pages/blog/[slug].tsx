@@ -107,7 +107,7 @@ const BlogPage: NextPage<AllBlogProps> = ({ articleContent, blogDetails }) => {
 }
 
 const getAllBlogs = async () => {
-  const res = await fetch('https://dev.to/api/articles?username=alinares98')
+  const res = await fetch('https://dev.to/api/articles?username=jesusalbarca')
 
   // const res = await fetch('https://dev.to/api/articles/me/published', {
   //   headers: { 'api-key': '' || '' },
