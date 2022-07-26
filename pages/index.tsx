@@ -29,7 +29,7 @@ const Home: NextPage<Props> = (props) => {
 }
 
 const getPosts = async () => {
-  const res = await fetch('https://dev.to/api/articles?username=alinares98')
+  const res = await fetch('https://dev.to/api/articles?username=jesusalbarca')
   const posts = await res.json()
 
   return posts
