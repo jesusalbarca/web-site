@@ -12,6 +12,7 @@ const Nav2 = () => {
 
   const navList = [
     { name: 'Home', route: '/' },
+    { name: 'Home', route: '/home' },
     { name: 'Blog', route: '/blog' },
     { name: 'About', route: '/about' },
   ]

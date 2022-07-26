@@ -30,7 +30,7 @@ const RecentProjects = () => {
                 <i>Firebase</i>
               </li>
               <li className="md:ml-1 mr-3 md:mr-0">
-                <i>Tailwind CSS</i>
+                <i>Spring boot</i>
               </li>
             </ul>
           </div>
