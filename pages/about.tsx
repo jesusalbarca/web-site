@@ -37,7 +37,7 @@ const About: NextPage = () => {
                 </motion.p>
                 <motion.p variants={fadeInUp} className="mb-4">
                 I am a self-taught developer who is passionate about innovative projects.
-                I have experience creating tools to automate tasks, developing web applications and exploiting host, web or network
+                       I have experience creating tools to automate tasks, developing web applications and exploiting host, web or network
                 vulnerabilities.
                 </motion.p>
                 <motion.p variants={fadeInUp} className="mb-4">
