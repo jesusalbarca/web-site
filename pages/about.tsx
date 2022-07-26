@@ -36,9 +36,9 @@ const About: NextPage = () => {
                   HI! 👋 I&apos;m Jesus, a computer engineer graduated in the UC3M 
                 </motion.p>
                 <motion.p variants={fadeInUp} className="mb-4">
-                  I am a self-taught developer working on all things related to cybersecurity. I have experience
-                  creating tools to automate tasks, developing web applications and exploiting host, web or network
-                  vulnerabilities.
+                I am a self-taught developer who is passionate about innovative projects.
+                I have experience creating tools to automate tasks, developing web applications and exploiting host, web or network
+                vulnerabilities.
                 </motion.p>
                 <motion.p variants={fadeInUp} className="mb-4">
                   When I’m not in front of a computer screen, I am probably working out, riding my bike, or trying out a
@@ -50,6 +50,8 @@ const About: NextPage = () => {
                 <motion.ul variants={fadeInUp} className="md:flex ">
                   <div>
                     <li className="mb-0.25">▸ Python</li>
+                    <li className="mb-0.25">▸ JavaScript</li>
+                    <li className="mb-0.25">▸ Spring boot</li>
                     <li className="mb-0.25">▸ Nmap</li>
                     <li className="mb-0.25">▸ Nessus</li>
                     <li className="mb-0.25">▸ BurpSuite</li>
@@ -59,6 +61,8 @@ const About: NextPage = () => {
                     <li className="mb-0.25">▸ Docker</li>
                     <li className="mb-0.25">▸ TypeScript</li>
                     <li className="mb-0.25">▸ Oracle/MySQL</li>
+                    <li className="mb-0.25">▸ MongoDB</li>
+                    <li className="mb-0.25">▸ Git</li>
                   </div>
                 </motion.ul>
               </motion.div>{' '}
