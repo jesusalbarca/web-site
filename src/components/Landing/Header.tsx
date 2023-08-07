@@ -17,7 +17,7 @@ const Main = () => {
           </motion.p>
           <motion.div variants={fadeInUp}>
             <h1 className="text-4xl md:mb-5 2xl:text-7xl  md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight dark:text-gray-100  sm:leading-10   md:leading-14">
-              I&apos;m Jesus Albarca 👋
+              I&apos;m Jesús Albarca 👋
             </h1>
           </motion.div>
           <motion.p
