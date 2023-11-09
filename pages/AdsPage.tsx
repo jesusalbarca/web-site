@@ -1,10 +1,16 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/accessible-emoji */
-import React from 'react';
-import { GetServerSideProps, NextPage } from 'next';
-import Head from 'next/head';
+import { GetServerSideProps } from 'next';
+import { useRouter } from 'next/router';
 
-const AdsPage: NextPage = () => {
+const AdsPage: React.FC = () => {
+  const router = useRouter();
+
+  // Cuando la página AdsPage se carga, verifica si la ruta es /ads y redirige a /ads.txt
+  React.useEffect(() => {
+    if (router.pathname === '/ads') {
+      window.location.href = '/ads.txt';
+    }
+  }, [router.pathname]);
+
   return (
     <div>
       {/* Aquí puedes definir la estructura de tu página de anuncios */}
@@ -13,24 +19,13 @@ const AdsPage: NextPage = () => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
-  // Obtener la ruta solicitada
-  const { url } = req;
+export const getServerSideProps: GetServerSideProps = async ({ res }) => {
+  // Establecer el contenido para /ads.txt
+  res.setHeader('Content-Type', 'text/plain');
+  res.write('google.com, pub-7217160576021116, DIRECT, f08c47fec0942fa0');
+  res.end();
 
-  // Verificar si la solicitud es para /ads.txt
-  if (url === '/ads.txt') {
-    // Establecer el contenido para /ads.txt
-    res.setHeader('Content-Type', 'text/plain');
-    res.write('google.com, pub-7217160576021116, DIRECT, f08c47fec0942fa0');
-    res.end();
-
-    // Devolver un objeto vacío ya que no hay datos para cargar en la página /ads
-    return {
-      props: {},
-    };
-  }
-
-  // Si la solicitud no es para /ads.txt, se carga la página normal
+  // Devolver un objeto vacío ya que no hay datos para cargar en la página /ads
   return {
     props: {},
   };
