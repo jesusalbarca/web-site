@@ -3,6 +3,7 @@
 import React from 'react'
 import { NextPage } from 'next'
 import Head from 'next/head'
+import Head from 'next/script'
 import { motion } from 'framer-motion'
 import { stagger, fadeInUp } from '@src/containers/framerAnimations'
 import Icons from '../src/components/Icons/Icons'
@@ -11,11 +12,14 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7217160576021116"
-     crossorigin="anonymous"></script>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="Description" content="Put your description here." />
       </Head>
+      <Script
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7217160576021116"
+        strategy="afterInteractive"
+        crossorigin="anonymous"
+      />
       <section className=" max-w-5xl w-11/12 px-4 md:px-0 pt-24 md:pt-28 lg:pt-32 mx-auto md:w-3/4 lg:w-10/12 dark:text-gray-300">
         <motion.div initial="initial" animate="animate" className="divide-y divide-gray-800">
           <div className=" space-y-2 md:space-y-5">
