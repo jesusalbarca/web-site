@@ -11,6 +11,8 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7217160576021116"
+     crossorigin="anonymous"></script>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="Description" content="Put your description here." />
       </Head>
